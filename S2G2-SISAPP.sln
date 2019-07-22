@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2G2-SISAPP", "S2G2-SISAPP\S2G2-SISAPP.csproj", "{861CE5C6-75DC-4435-8182-1ED6F70081BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{861CE5C6-75DC-4435-8182-1ED6F70081BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861CE5C6-75DC-4435-8182-1ED6F70081BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861CE5C6-75DC-4435-8182-1ED6F70081BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861CE5C6-75DC-4435-8182-1ED6F70081BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22FD7F12-F6E2-47E6-9D26-34511467DB36}
+	EndGlobalSection
+EndGlobal

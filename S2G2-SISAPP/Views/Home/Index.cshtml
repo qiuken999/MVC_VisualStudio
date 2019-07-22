@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>S2G2-SIS Application</h1>
+    <p class="lead">SIS - Student Information System by S2G2</p>
+    
+</div>
+
+<div class="row">
+    <div class="col-xs-6">
+        <h2>@Html.ActionLink("Students", "Index", "Students")</h2>
+        <p>Student Basic Information</p>
+    </div>
+    <div class="col-xs-6">
+        <h2>@Html.ActionLink("Study Terms", "Index", "StudyTerms")</h2>
+        <p>Study Terms Information</p>
+    </div>
+    <div class="col-xs-6">
+        <h2>@Html.ActionLink("Courses", "Index", "Cours")</h2>
+        <p>Courses Basic Information</p>
+    </div>
+    <div class="col-xs-6">
+        <h2>@Html.ActionLink("Course Registration", "Index", "Registrations")</h2>
+        <p>Student Course Information</p>
+    </div>
+    <div class="col-xs-6">
+        <h2>@Html.ActionLink("Instructors", "Index", "Instructors")</h2>
+        <p>Instructor Basic Information</p>
+    </div>
+    <div class="col-xs-6">
+        <h2>@Html.ActionLink("Teaching Assignment", "Index", "TeachingAssignments")</h2>
+        <p>Teaching Assignments Information for Instructors</p>
+    </div>
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Departments", "Index", "Departments")</h2>
+        <p>Departments Basic Information</p>
+    </div>
+</div>
